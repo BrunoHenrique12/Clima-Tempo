@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="scripts/scripts.js"></script>
+    <title>Clima | Tempo</title>
+</head>
+
+<body>
+    <div class="bigbox">
+        <input class="input-cidade" placeholder="Digite o Nome da Cidade">
+        <button class="botao-busca" onclick="cliqueiNoBotao()">
+            <img class="img-busca" src="imagens/lupa.png" alt="icone-busca">
+        </button>
+
+        <div class="caixa-media">
+            <h2 class="cidade">Estado/Cidade</h2>
+            <p class="temp"> °C</p>
+
+            <div class="caixa-menor">
+                <img class="previsao" src="https://openweathermap.org/img/wn/04n.png" alt="img-previsão">
+
+                <p class="text-previsao">Nublado</p>
+            </div>
+
+            <div class="change-humidity">
+                <p>Umidade: </p>
+                <p class="umidade"></p>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
