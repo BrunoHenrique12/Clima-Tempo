@@ -55,6 +55,11 @@ body {
     margin-top: 30px;
 }
 
+.minmax {
+    display: flex;
+    margin-top: 13px;
+}
+
 .cidade {
     color: #fff;
     font-size: 30px;
@@ -62,6 +67,7 @@ body {
 }
 
 .temp {
+    font-weight: bold;
     font-size: 20px;
     color: #fff;
     margin-top: 20px;
@@ -78,13 +84,8 @@ body {
     text-transform: capitalize;
 }
 
-.text-previsao {
-    margin-left: 20px;
-
-}
-
-.umidade {
-    margin-left: 15px;
+.umidade, .minima, .maxima, .wind {
+    margin-right:  5px;
 }
 
 p {
