@@ -9,6 +9,7 @@ function colocarDadosNaTela(dados){
     document.querySelector(".previsao").src = "https://openweathermap.org/img/wn/" + dados.weather[0].icon + ".png"
     document.querySelector(".umidade").innerHTML = "Umidade: " + dados.main.humidity + "%"
     document.querySelector(".wind").innerHTML = " | Vento: " + Math.floor(dados.wind.speed) + " Km/h "
+    document.querySelector(".nebul").innerHTML = " | Nebulosidade: " + dados.clouds.all + "%"
     
     
 }
